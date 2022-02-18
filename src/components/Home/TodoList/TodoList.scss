@@ -1,0 +1,9 @@
+ul.todoList {
+    li {
+        cursor: pointer;
+
+        &.active {
+            color: darkgoldenrod;
+        }
+    }
+}
